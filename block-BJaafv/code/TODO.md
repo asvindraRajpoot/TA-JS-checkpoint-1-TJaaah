@@ -18,7 +18,7 @@ function sum(a, b) {
 //first case: a+b , sum of both input
 //Second case: undefined,
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
-//It will ignore the thired parameter because it is having two parameter as input.
+//36 ,It will ignore the thired parameter because it is having two parameter as input.
 
 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
 //Yes we can store the function in variable named add because function is treated as object which gives some values so values can be stored that is basically called function expression so we can store the function in var.
@@ -71,7 +71,8 @@ alert(userName); // it will alert the user with following pop up : 'John'
 ```
 
 8. What is a Anonymous Function give example of three functions.
-Anonymous function is function which does have its name in syntax or function declartion that is called anonymous.
+
+Anonymous function is function which does not have its name in syntax or function declartion that is called anonymous.
 Exp:
 1: 
 ```js
